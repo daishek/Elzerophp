@@ -25,6 +25,7 @@
         <h1>Problem Solving List:</h1>
         <ul>
             <li><a href="./solving/find_missing.php">Find the missing letters</a></li>
+            <li><a href="./solving/number_to_reversed_array.php">Number to reversed array</a></li>
         </ul>
     </div>
 </div>
