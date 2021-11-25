@@ -18,6 +18,7 @@
             <li><a href="./list/stringFunctions.php">String Functions part 1</a></li>
             <li><a href="./list/stringFunctions_2.php">String Functions part 2</a></li>
             <li><a href="./list/stringFunctions_3.php">String Functions part 3</a></li>
+            <li><a href="./list/stringFunctions_4.php">String Functions part 4</a></li>
         </ul>
     </div>
     <div>
