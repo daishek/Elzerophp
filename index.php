@@ -19,6 +19,7 @@
             <li><a href="./list/stringFunctions_2.php">String Functions part 2</a></li>
             <li><a href="./list/stringFunctions_3.php">String Functions part 3</a></li>
             <li><a href="./list/stringFunctions_4.php">String Functions part 4</a></li>
+            <li><a href="./list/fileSystem_1.php">File System Simple Training 1</a></li>
         </ul>
     </div>
     <div>
