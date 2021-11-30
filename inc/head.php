@@ -1,3 +1,14 @@
+<?php
+$mainTheme = "#ececec";
+
+if(isset($_COOKIE['theme'])){
+    $theme = $_COOKIE['theme'];
+}else{
+    $theme = $mainTheme;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,5 +23,5 @@
         }
     </style>
 </head>
-<body>
+<body style="background-color: <?php echo $theme ?>;">
     <div class="content">

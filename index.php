@@ -22,6 +22,8 @@
             <li><a href="./list/fileSystem_1.php">File System Simple Training 1</a></li>
             <li><a href="./list/fileSystem_2.php">File System PART 2</a></li>
             <li><a href="./list/fileSystem_3.php">File System PART 3</a></li>
+            <li><a href="./list/predefinedVariables.php">Predefined Variables</a></li>
+            <li><a href="./list/cookies.php">Cookies</a></li>
         </ul>
     </div>
     <div>
