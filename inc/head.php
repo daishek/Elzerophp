@@ -17,6 +17,10 @@ if(isset($_COOKIE['theme'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $title; ?></title>
     <style>
+        .welcome{
+            font-family: 'Arial';
+            color: #555;
+        }
         .container{
             display: flex;
             justify-content: space-around;

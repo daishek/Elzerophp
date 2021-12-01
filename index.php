@@ -1,9 +1,22 @@
 <?php
     $title = "Learn Php";
-    include_once "./inc/head.php"
+    include_once "./inc/head.php";
+    
+    //resume session...
+    session_start();
+    //get username
 ?>
 
-<center><h1>Learn PHP</h1></center>
+<center>
+    <?php
+    if(isset($_SESSION['username'])){
+        ?>
+        <span class="welcome">Welcome @<?php echo $_SESSION['username']; ?></span>
+    <?php }
+    include './List/php/c.php';
+    ?>
+    <h1>Learn PHP</h1>
+</center>
 <div class="container">
     <div>
         <h1>Learn List:</h1>
@@ -24,6 +37,9 @@
             <li><a href="./list/fileSystem_3.php">File System PART 3</a></li>
             <li><a href="./list/predefinedVariables.php">Predefined Variables</a></li>
             <li><a href="./list/cookies.php">Cookies</a></li>
+            <li><a href="./list/session.php">Session</a></li>
+            <li><a href="./list/sessionTraining.php">Session Training</a></li>
+            <li><a href="./list/misc.php">Misc Functions </a></li>
         </ul>
     </div>
     <div>
