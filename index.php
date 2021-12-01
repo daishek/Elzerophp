@@ -40,6 +40,8 @@
             <li><a href="./list/session.php">Session</a></li>
             <li><a href="./list/sessionTraining.php">Session Training</a></li>
             <li><a href="./list/misc.php">Misc Functions </a></li>
+            <li><a href="./list/filter.php">Filter </a></li>
+            <li><a href="./list/dateTime.php">Date And Time</a></li>
         </ul>
     </div>
     <div>
